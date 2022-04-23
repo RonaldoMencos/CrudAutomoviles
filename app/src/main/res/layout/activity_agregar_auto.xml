@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AgregarAuto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="557dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/idMarca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Marca"
+                android:inputType="textPersonName"
+                android:textColorHighlight="#000000"
+                android:textColorLink="#000000" />
+
+            <EditText
+                android:id="@+id/idLinea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Linea"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/idTipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tipo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/idTransmision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Transmisión"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/idModelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Modelo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/idKm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Kilometraje"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/idTraccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tracción"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/idCombustible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Combustible"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/idColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Color"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/idPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Precio"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/idCantidadPuertas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Cantidad de puertas"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnCamara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foto"
+                app:icon="@drawable/icon_camara" />
+
+            <ImageView
+                android:id="@+id/imagenAgregada"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Automovil" />
+</LinearLayout>
